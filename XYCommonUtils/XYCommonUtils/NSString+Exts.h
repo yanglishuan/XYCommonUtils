@@ -43,6 +43,9 @@
 /** 车牌号验证 MODIFIED BY HELENSONG */
 - (BOOL)isValidateCarNo;
 
+/** 网址验证 */
+- (BOOL)isValidateUrl;
+
 /** 去掉两端空格和换行符 */
 - (NSString *)stringByTrimmingBlank;
 
